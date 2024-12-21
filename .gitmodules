@@ -1,0 +1,14 @@
+[submodule "android_kernel_samsung_universal8895"]
+    path = android_kernel_samsung_universal8895
+	url = https://github.com/fnr1r/android_kernel_samsung_universal8895
+    shallow = true
+[submodule "toolchains/aarch64-linux-android-4.9"]
+    path = toolchains/aarch64-linux-android-4.9
+    url = https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9
+    branch = android12-release
+    shallow = true
+[submodule "toolchains/linux-x86"]
+    path = toolchains/linux-x86
+    url = https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86
+    branch = android-12.1.0_r5
+    shallow = true
